@@ -15,6 +15,9 @@
 		EAA4DE67278624DD007415CE /* SwiftUI_Advanced.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EAA4DE65278624DD007415CE /* SwiftUI_Advanced.xcdatamodeld */; };
 		EAA4DE7027862574007415CE /* VisualEffectBlur.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAA4DE6E27862574007415CE /* VisualEffectBlur.swift */; };
 		EAA4DE7127862574007415CE /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAA4DE6F27862574007415CE /* ImagePicker.swift */; };
+		EAA7E3D42787A639005883FF /* GradientText.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAA7E3D32787A639005883FF /* GradientText.swift */; };
+		EAA7E3D62787A6D2005883FF /* GradientButtton.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAA7E3D52787A6D2005883FF /* GradientButtton.swift */; };
+		EAA7E3D82787A6F3005883FF /* TextfieldIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAA7E3D72787A6F3005883FF /* TextfieldIcon.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +30,9 @@
 		EAA4DE66278624DD007415CE /* SwiftUI_Advanced.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SwiftUI_Advanced.xcdatamodel; sourceTree = "<group>"; };
 		EAA4DE6E27862574007415CE /* VisualEffectBlur.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VisualEffectBlur.swift; sourceTree = "<group>"; };
 		EAA4DE6F27862574007415CE /* ImagePicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		EAA7E3D32787A639005883FF /* GradientText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientText.swift; sourceTree = "<group>"; };
+		EAA7E3D52787A6D2005883FF /* GradientButtton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientButtton.swift; sourceTree = "<group>"; };
+		EAA7E3D72787A6F3005883FF /* TextfieldIcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextfieldIcon.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +68,7 @@
 				EAA4DE5A278624DC007415CE /* SwiftUI_AdvancedApp.swift */,
 				EAA4DE6D27862574007415CE /* Helpers */,
 				EAA4DE5C278624DC007415CE /* ContentView.swift */,
+				EAA7E3D22787A619005883FF /* Views */,
 				EAA4DE5E278624DD007415CE /* Assets.xcassets */,
 				EAA4DE63278624DD007415CE /* Persistence.swift */,
 				EAA4DE65278624DD007415CE /* SwiftUI_Advanced.xcdatamodeld */,
@@ -85,6 +92,16 @@
 				EAA4DE6F27862574007415CE /* ImagePicker.swift */,
 			);
 			path = Helpers;
+			sourceTree = "<group>";
+		};
+		EAA7E3D22787A619005883FF /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				EAA7E3D32787A639005883FF /* GradientText.swift */,
+				EAA7E3D52787A6D2005883FF /* GradientButtton.swift */,
+				EAA7E3D72787A6F3005883FF /* TextfieldIcon.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -158,10 +175,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				EAA4DE7027862574007415CE /* VisualEffectBlur.swift in Sources */,
+				EAA7E3D42787A639005883FF /* GradientText.swift in Sources */,
 				EAA4DE64278624DD007415CE /* Persistence.swift in Sources */,
 				EAA4DE67278624DD007415CE /* SwiftUI_Advanced.xcdatamodeld in Sources */,
 				EAA4DE7127862574007415CE /* ImagePicker.swift in Sources */,
+				EAA7E3D82787A6F3005883FF /* TextfieldIcon.swift in Sources */,
 				EAA4DE5D278624DC007415CE /* ContentView.swift in Sources */,
+				EAA7E3D62787A6D2005883FF /* GradientButtton.swift in Sources */,
 				EAA4DE5B278624DC007415CE /* SwiftUI_AdvancedApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
