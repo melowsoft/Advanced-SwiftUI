@@ -10,14 +10,20 @@ import SwiftUI
 struct TextfieldIcon: View {
     var iconName: String
     @Binding var currentlyEditing: Bool
+    @State private var colorAngle: Double = 0.0
     
     var body: some View {
         ZStack {
             VisualEffectBlur(blurStyle: .dark){
                 ZStack {
                     if currentlyEditing {
-                        AngularGradient(gradient: Gradient(colors: gradient1), center: .center, angle: .degrees(0))
+                        AngularGradient(gradient: Gradient(colors: gradient1), center: .center, angle: .degrees(colorAngle))
                             .blur(radius: 10.0)
+                            .onAppear() {
+                                withAnimation(.linear(duration: 7.0)) {
+                                    self.colorAngle += 350
+                                }
+                            }
                     }
                     
                     Color("tertiaryBackground")

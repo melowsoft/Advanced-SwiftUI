@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		EAA4DE5B278624DC007415CE /* SwiftUI_AdvancedApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAA4DE5A278624DC007415CE /* SwiftUI_AdvancedApp.swift */; };
-		EAA4DE5D278624DC007415CE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAA4DE5C278624DC007415CE /* ContentView.swift */; };
+		EAA4DE5D278624DC007415CE /* SignupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAA4DE5C278624DC007415CE /* SignupView.swift */; };
 		EAA4DE5F278624DD007415CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EAA4DE5E278624DD007415CE /* Assets.xcassets */; };
 		EAA4DE62278624DD007415CE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EAA4DE61278624DD007415CE /* Preview Assets.xcassets */; };
 		EAA4DE64278624DD007415CE /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAA4DE63278624DD007415CE /* Persistence.swift */; };
@@ -18,12 +18,15 @@
 		EAA7E3D42787A639005883FF /* GradientText.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAA7E3D32787A639005883FF /* GradientText.swift */; };
 		EAA7E3D62787A6D2005883FF /* GradientButtton.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAA7E3D52787A6D2005883FF /* GradientButtton.swift */; };
 		EAA7E3D82787A6F3005883FF /* TextfieldIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAA7E3D72787A6F3005883FF /* TextfieldIcon.swift */; };
+		EAA7E3DB2787BA18005883FF /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = EAA7E3DA2787BA18005883FF /* FirebaseAuth */; };
+		EAA7E3DD2787BA8E005883FF /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = EAA7E3DC2787BA8E005883FF /* GoogleService-Info.plist */; };
+		EAA7E3DF2787C157005883FF /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAA7E3DE2787C157005883FF /* ProfileView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		EAA4DE57278624DC007415CE /* SwiftUI Advanced.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI Advanced.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EAA4DE5A278624DC007415CE /* SwiftUI_AdvancedApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_AdvancedApp.swift; sourceTree = "<group>"; };
-		EAA4DE5C278624DC007415CE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		EAA4DE5C278624DC007415CE /* SignupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupView.swift; sourceTree = "<group>"; };
 		EAA4DE5E278624DD007415CE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EAA4DE61278624DD007415CE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		EAA4DE63278624DD007415CE /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
@@ -33,6 +36,8 @@
 		EAA7E3D32787A639005883FF /* GradientText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientText.swift; sourceTree = "<group>"; };
 		EAA7E3D52787A6D2005883FF /* GradientButtton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientButtton.swift; sourceTree = "<group>"; };
 		EAA7E3D72787A6F3005883FF /* TextfieldIcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextfieldIcon.swift; sourceTree = "<group>"; };
+		EAA7E3DC2787BA8E005883FF /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		EAA7E3DE2787C157005883FF /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +45,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EAA7E3DB2787BA18005883FF /* FirebaseAuth in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -67,9 +73,11 @@
 			children = (
 				EAA4DE5A278624DC007415CE /* SwiftUI_AdvancedApp.swift */,
 				EAA4DE6D27862574007415CE /* Helpers */,
-				EAA4DE5C278624DC007415CE /* ContentView.swift */,
+				EAA4DE5C278624DC007415CE /* SignupView.swift */,
+				EAA7E3DE2787C157005883FF /* ProfileView.swift */,
 				EAA7E3D22787A619005883FF /* Views */,
 				EAA4DE5E278624DD007415CE /* Assets.xcassets */,
+				EAA7E3DC2787BA8E005883FF /* GoogleService-Info.plist */,
 				EAA4DE63278624DD007415CE /* Persistence.swift */,
 				EAA4DE65278624DD007415CE /* SwiftUI_Advanced.xcdatamodeld */,
 				EAA4DE60278624DD007415CE /* Preview Content */,
@@ -120,6 +128,9 @@
 			dependencies = (
 			);
 			name = "SwiftUI Advanced";
+			packageProductDependencies = (
+				EAA7E3DA2787BA18005883FF /* FirebaseAuth */,
+			);
 			productName = "SwiftUI Advanced";
 			productReference = EAA4DE57278624DC007415CE /* SwiftUI Advanced.app */;
 			productType = "com.apple.product-type.application";
@@ -148,6 +159,9 @@
 				Base,
 			);
 			mainGroup = EAA4DE4E278624DC007415CE;
+			packageReferences = (
+				EAA7E3D92787BA18005883FF /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = EAA4DE58278624DC007415CE /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -164,6 +178,7 @@
 			files = (
 				EAA4DE62278624DD007415CE /* Preview Assets.xcassets in Resources */,
 				EAA4DE5F278624DD007415CE /* Assets.xcassets in Resources */,
+				EAA7E3DD2787BA8E005883FF /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -176,11 +191,12 @@
 			files = (
 				EAA4DE7027862574007415CE /* VisualEffectBlur.swift in Sources */,
 				EAA7E3D42787A639005883FF /* GradientText.swift in Sources */,
+				EAA7E3DF2787C157005883FF /* ProfileView.swift in Sources */,
 				EAA4DE64278624DD007415CE /* Persistence.swift in Sources */,
 				EAA4DE67278624DD007415CE /* SwiftUI_Advanced.xcdatamodeld in Sources */,
 				EAA4DE7127862574007415CE /* ImagePicker.swift in Sources */,
 				EAA7E3D82787A6F3005883FF /* TextfieldIcon.swift in Sources */,
-				EAA4DE5D278624DC007415CE /* ContentView.swift in Sources */,
+				EAA4DE5D278624DC007415CE /* SignupView.swift in Sources */,
 				EAA7E3D62787A6D2005883FF /* GradientButtton.swift in Sources */,
 				EAA4DE5B278624DC007415CE /* SwiftUI_AdvancedApp.swift in Sources */,
 			);
@@ -385,6 +401,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		EAA7E3D92787BA18005883FF /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 8.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		EAA7E3DA2787BA18005883FF /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EAA7E3D92787BA18005883FF /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		EAA4DE65278624DD007415CE /* SwiftUI_Advanced.xcdatamodeld */ = {
