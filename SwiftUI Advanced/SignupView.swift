@@ -20,6 +20,7 @@ struct SignupView: View {
     @State private var showProfileView: Bool = false
     @State private var signupToggle: Bool = true
     @State private var rotationAngle = 0.0
+    @State private var signInWithAppleObject = SignInWithAppleObject()
     
     private let generator = UISelectionFeedbackGenerator()
     
@@ -162,6 +163,14 @@ struct SignupView: View {
                                         .font(.footnote.bold())
                                     
                                 }
+                            })
+                            Rectangle()
+                                .frame(height: 1)
+                                .foregroundColor(.white.opacity(0.1))
+                            Button(action: {signInWithAppleObject.signInWithApple()}, label:  {
+                                SigninWithApppleButton()
+                                    .frame(height: 50)
+                                    .cornerRadius(16)
                             })
                         }
                     }
